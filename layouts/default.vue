@@ -16,6 +16,7 @@ export default {
       titleTemplate: '%s - Tagline Used Along Every Page',
       meta: [
         {
+          //hid and name values will remain same here and in every page
           hid: 'description',
           name: 'description',
           content: 'Index Page content details'
