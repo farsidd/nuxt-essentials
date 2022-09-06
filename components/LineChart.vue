@@ -14,6 +14,7 @@
 
 <script>
 import { Line as LineChartGenerator } from 'vue-chartjs'
+import { Filler } from 'chart.js';
 
 import {
   Chart as ChartJS,
@@ -30,6 +31,7 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
+  Filler,
   LineElement,
   LinearScale,
   CategoryScale,
